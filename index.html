@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div id="control-container" class="controls">
+      <button id="reset" class="control-item">Reset</button>
+      <button id="change-grid" class="control-item">Change Grid Size</button>
+      <select id="change-color" class="control-item">
+        <option value="black">Black</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="rand">Random</option>
+      </select>
+      <select id="change-opacity" class="control-item">
+        <option value="1.00">100%</option>
+        <option value=".75">75%</option>
+        <option value=".50">50%</option>
+        <option value=".25">25%</option>
+        <option value=".10">10%</option>
+      </select>
+    </div>
+    <div id="grid-container" class="flex-container">
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+
+</html>
